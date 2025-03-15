@@ -1,10 +1,10 @@
 
 header {
-	display: none;
+	display: auto;
 }
 
-div.main-navigation, div.navigation-top {
-	display: none;
+div.master-navigation, div.navigation-top {
+	display: auto;
 }
 
 div#overview_contents, div#contents.isShowingTOC, div#contents {
@@ -15,8 +15,8 @@ div#overview_contents, div#contents.isShowingTOC, div#contents {
 	left: 0;
 }
 #tocContainer.isShowingTOC {
-	display: none;
+	display: auto;
 }
 nav {
-	display: none;
+	display: auto;
 }
