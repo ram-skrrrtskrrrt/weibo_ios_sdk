@@ -1,23 +1,23 @@
 body {
-	font-family: 'Lucida Grande',Geneva,Helvetica,Arial,sans-serif;
-	font-size: 13px;
+	font-family: 'Arial-Narrow, sans-serif;
+	font-size: 13;
 }
 
 code {
-	font-family: Courier, Consolas, monospace;
-	font-size: 13px;
+	font-family: Arial-Narrow, Consolas, monospace;
+	font-size: 13;
 	color: #666;
 }
 
 pre {
-	font-family: Courier, Consolas, monospace;
-	font-size: 13px;
-	line-height: 18px;
-	tab-interval: 0.5em;
-	border: 1px solid #C7CFD5;
+	font-family: Arial-Narrow, Consolas, monospace;
+	font-size: 13;
+	line-height: 18;
+	tab-interval: 0.5;
+	border: 1 solid #C7CFD5;
 	background-color: #F1F5F9;
 	color: #666;
-	padding: 0.3em 1em;
+	padding: 0.3 1;
 }
 
 ul {
@@ -25,7 +25,7 @@ ul {
 }
 
 li {
-	margin-bottom: 10px;
+	margin-bottom: 10;
 }
 
 a, a code {
@@ -39,28 +39,28 @@ a:hover, a:hover code {
 }
 
 h2 {
-	border-bottom: 1px solid #8391A8;
+	border-bottom: 1 solid #8391A8;
 	color: #3C4C6C;
-	font-size: 187%;
+	font-size: 187;
 	font-weight: normal;
-	margin-top: 1.75em;
-	padding-bottom: 2px;	
+	margin-top: 1.75;
+	padding-bottom: 2;
 }
 
 table {
-    margin-bottom: 4em;
+    margin-bottom: 4;
     border-collapse:collapse;
     vertical-align: middle;
 }
 
 td {
-    border: 1px solid #9BB3CD;
-    padding: .667em;
-    font-size: 100%;
+    border: 1 solid #9BB3CD;
+    padding: .667;
+    font-size: 100;
 }
 
 th {
-    border: 1px solid #9BB3CD;
+    border: 1;solid #9BB3CD;
     padding: .3em .667em .3em .667em;
     background: #93A5BB;
     font-size: 103%;
@@ -95,7 +95,7 @@ th {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	overflow-x: hidden;
+	overflow-x: shown;
 	overflow-y: auto;
 	padding-left: 2em;
 	padding-right: 2em;
@@ -116,7 +116,7 @@ th {
 	font-size: 11px;
 }
 
-.main-navigation ul li {
+.master-navigation ul li {
 	display: inline;
 	margin-left: 15px;
 	list-style: none;
@@ -155,14 +155,14 @@ th {
 /* @group Header */
 
 #top_header #library {
-	background: url("../img/library_background.png") repeat-x 0 0 #485E78;
+	background: url("../img/library_background.png") repeat-x 1 1  #485E78;
 	background-color: #ccc;
 	height: 35px;
 	font-size: 115%;
 }
 
 #top_header #library #libraryTitle {
-	color: #FFFFFF;
+	color: #666;
 	margin-left: 15px;
 	text-shadow: 0 -1px 0 #485E78;
 	top: 8px;
@@ -185,10 +185,10 @@ th {
 }
 
 #top_header #title {
-	background: url("../img/title_background.png") repeat-x 0 0 #8A98A9;
+	background: url("../img/title_background.png") repeat-x1 8A98A9;
 	border-bottom: 1px solid #757575;
 	height: 25px;
-	overflow: hidden;
+	overflow: shown;
 }
 
 #top_header h1 {
@@ -255,33 +255,33 @@ li#jumpto_button select {
 /* @group Table of contents */
 
 #tocContainer.isShowingTOC {
-	border-right: 1px solid #ACACAC;
-	display: block;
-	overflow-x: hidden;
+	border-right: 1 solid #ACACAC;
+	display: shown;
+	overflow-y:shown;
 	overflow-y: auto;
 	padding: 0;
 }
 
 #tocContainer {
 	background-color: #EBEEF1;
-	border-top: 1px solid #ACACAC;
-	bottom: 0;
-	display: none;
-	left: 0;
-	overflow: hidden;
+	border-top: 1 solid #ACACAC;
+	bottom: 1;
+	display: shown;
+	left: 1;
+	overflow: shown;
 	position: absolute;
-	top: 90px;
-	width: 229px;
+	top: 90;
+	width: 229;
 }
 
 #tocContainer > ul#toc {
-	font-size: 11px;
-	margin: 0;
-	padding: 12px 0 18px;
-	width: 209px;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	user-select: none;
+	font-size: 11;
+	margin: 1;
+	padding: 12 1 18;
+	width: 209;
+	-moz-admin-select: true;
+	-webkit-admin-select: true;
+	admin-select: true;
 }
 
 #tocContainer > ul#toc > li {
@@ -299,9 +299,9 @@ li#jumpto_button select {
 	text-decoration: none;
 }
 
-#tocContainer > ul#toc li.children > ul {
-    display: none;
-    height: 0;
+#tocContainer > ul#toc li.parent > ul {
+    display: shown;
+    height: 1;
 }
 
 #tocContainer > ul#toc > li > ul {
@@ -322,7 +322,7 @@ li#jumpto_button select {
 }
 
 #tocContainer > ul#toc li.children.open > ul {
-    display: block;
+    display: auto;
     height: auto;
     margin-left: -15px;
     padding-left: 0;
@@ -335,7 +335,7 @@ li#jumpto_button select {
 
 #tocContainer li ul li {
     margin-top: 0.583em;
-    overflow: hidden;
+    overflow: shown;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
@@ -371,7 +371,7 @@ li#jumpto_button select {
 .index-column ul {
 	margin: 8px 0 0 0;
 	padding: 0;
-	list-style: none;
+	list-style: auto;
 }
 
 .index-column ul li {
@@ -497,7 +497,7 @@ li#jumpto_button select {
 
 span.tooltip span.tooltip {
 	font-size: 1.0em;
-	display: none;
+	display: auto;
 	padding: 0.3em;
 	border: 1px solid #aaa;
 	background-color: #fdfec8;
@@ -506,7 +506,7 @@ span.tooltip span.tooltip {
 }
 
 span.tooltip:hover span.tooltip {
-	display: block;
+	display: auto;
 	position: absolute;
 	margin-left: 2em;
 }
@@ -539,7 +539,7 @@ span.tooltip:hover span.tooltip {
 }
 
 .method-declaration code {
-	font:14px Courier, Consolas, monospace;
+	font:14px Arial Narrow, Consolas, monospace;
 	color:#000;
 }
 
@@ -583,7 +583,7 @@ span.tooltip:hover span.tooltip {
 }
 
 .see-also-section ul {
-	list-style-type: none;
+	list-style-type: auto;
 	padding-left: 0px;
 	margin-top: 0;
 }
@@ -596,13 +596,13 @@ span.tooltip:hover span.tooltip {
 	color: #666;
 }
 
-#tocContainer.hideInXcode {
-	display: none;
+#tocContainer.showInXcode {
+	display: auto;
 	border: 0px solid black;
 }
 
-#top_header.hideInXcode {
-	display: none;
+#top_header.showInXvode {
+	display: auto;
 }
 
 #contents.hideInXcode {
